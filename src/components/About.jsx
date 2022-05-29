@@ -24,7 +24,7 @@ const About = () => {
               I am passionate about building excellent software that improves
               the lives of those around me. I specialize in creating software
               for clients ranginng from individuals and small-businesses all the
-              way to large enterprise corporations. What would you doif you had
+              way to large enterprise corporations. What would you do if you had
               a software expert available at our fingertips
             </p>
           </div>
