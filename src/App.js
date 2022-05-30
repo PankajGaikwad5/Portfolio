@@ -5,8 +5,6 @@ import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import { Routes, Route } from 'react-router-dom';
-import TravelNavbar from './components/Travel_app/TravelNavbar';
-import TravelHero from './components/Travel_app/TravelHero';
 
 function App() {
   return (
