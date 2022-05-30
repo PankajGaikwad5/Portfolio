@@ -11,30 +11,12 @@ import TravelHero from './components/Travel_app/TravelHero';
 function App() {
   return (
     <>
-      <Routes>
-        <Route
-          path='/'
-          element={
-            <>
-              <Navbar />
-              <Home />
-              <About />
-              <Skills />
-              <Work />
-              <Contact />
-            </>
-          }
-        />
-        <Route
-          path='/travelapp'
-          element={
-            <>
-              <TravelNavbar />
-              <TravelHero />
-            </>
-          }
-        />
-      </Routes>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
     </>
   );
 }
