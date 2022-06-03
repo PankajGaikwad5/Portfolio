@@ -1,6 +1,7 @@
 import React from 'react';
 import WorkImg from './WorkImg';
 import workImg from '../assets/workImg.jpeg';
+import travelWebsite from '../assets/travelWebsite.png';
 import realEstate from '../assets/realestate.jpg';
 
 const Work = () => {
@@ -17,12 +18,12 @@ const Work = () => {
           <p className='py-4'>// Please take a look at my recent work</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <WorkImg image={workImg} />
-          <WorkImg image={realEstate} />
-          <WorkImg image={workImg} />
-          <WorkImg image={realEstate} />
-          <WorkImg image={workImg} />
-          <WorkImg image={realEstate} />
+          <WorkImg image={travelWebsite} />
+          <WorkImg image={travelWebsite} />
+          <WorkImg image={travelWebsite} />
+          <WorkImg image={travelWebsite} />
+          <WorkImg image={travelWebsite} />
+          <WorkImg image={travelWebsite} />
         </div>
       </div>
     </div>

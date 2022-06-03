@@ -11,12 +11,12 @@ const WorkImg = ({ image }) => {
           React Js Application
         </span>
         <div className='pt-8 text-center'>
-          <a href='/travelapp'>
+          <a href='https://dynamic-kheer-3b036f.netlify.app/' target={'_blank'}>
             <button className='text-center text-lg px-4 py-3 m-2 font-bold text-gray-700 rounded-lg bg-white'>
               Demo
             </button>
           </a>
-          <a href='/'>
+          <a href='https://github.com/PankajGaikwad5/Travel' target={'_blank'}>
             <button className='text-center text-lg px-4 py-3 m-2 font-bold text-gray-700 rounded-lg bg-white'>
               Code
             </button>

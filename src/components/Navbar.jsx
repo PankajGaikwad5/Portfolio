@@ -79,14 +79,26 @@ const Navbar = () => {
             </a>
           </li>
           <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#333333] duration-300'>
-            <a href='/' className='flex justify-between items-center w-full'>
+            <a
+              href='https://github.com/PankajGaikwad5'
+              target={'_blank'}
+              className='flex justify-between items-center w-full'
+            >
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#6fc2b0] duration-300'>
-            <a href='/' className='flex justify-between items-center w-full'>
+            {/* <a href='/' className='flex justify-between items-center w-full'>
               Email <HiOutlineMail size={30} />
-            </a>
+            </a> */}
+            <Link
+              to={'Contact'}
+              smooth={true}
+              duration={500}
+              className='flex justify-between items-center w-full'
+            >
+              Email <HiOutlineMail size={30} />
+            </Link>
           </li>
           <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#565f69] duration-300'>
             <a href='/' className='flex justify-between items-center w-full'>
