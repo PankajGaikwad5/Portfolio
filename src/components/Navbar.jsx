@@ -73,11 +73,11 @@ const Navbar = () => {
       </ul>
       <div className='fixed hidden lg:flex flex-col top-[35%] left-0'>
         <ul>
-          <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-blue-600 duration-300'>
+          {/* <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-blue-600 duration-300'>
             <a href='/' className='flex justify-between items-center w-full'>
               Linkedin <FaLinkedin size={30} />
             </a>
-          </li>
+          </li> */}
           <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#333333] duration-300'>
             <a
               href='https://github.com/PankajGaikwad5'
@@ -100,11 +100,11 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </Link>
           </li>
-          <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#565f69] duration-300'>
+          {/* <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#565f69] duration-300'>
             <a href='/' className='flex justify-between items-center w-full'>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
