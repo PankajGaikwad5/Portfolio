@@ -107,8 +107,8 @@ const Navbar = () => {
           </li> */}
         </ul>
       </div>
-      <div className='fixed bg-gray-100/80 rounded-md bottom-[5%] h-10 max-w-[700px] left-[5%] right-[5%] md:left-[25%] md:right-[25%] flex items-center text-black px-4'>
-        <p className='ml-4 font-bold note text-[#0a192f] flex-nowrap'>
+      <div className='fixed bg-gray-100/80 rounded-md bottom-[5%] h-10 max-w-[700px] left-[5%] right-[5%] md:left-[25%] md:right-[25%] flex items-center text-black px-4 flex-nowrap'>
+        <p className='ml-4 font-bold note text-[#0a192f]'>
           I'll keep adding more skills and works as i progress
         </p>
       </div>
