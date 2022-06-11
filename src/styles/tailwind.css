@@ -47,6 +47,22 @@
   ) !important;
 }
 
+@keyframes note {
+  0% {
+    transform: translate(40rem, 0);
+  }
+  100% {
+    transform: translate(-27rem, 0);
+  }
+}
+
+.note {
+  /* animation: note 4s ease-in-out 200ms infinite; */
+  animation-name: note;
+  animation-timing-function: linear;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
 .navMenu > span {
   display: block;
   width: 28px;
