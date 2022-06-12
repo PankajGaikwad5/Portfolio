@@ -1026,8 +1026,8 @@ h3 {
   /* animation: note 4s ease-in-out 200ms infinite; */
   -webkit-animation-name: note;
           animation-name: note;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
   -webkit-animation-duration: 10s;
           animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
