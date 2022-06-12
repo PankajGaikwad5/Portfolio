@@ -59,7 +59,7 @@
 .note {
   /* animation: note 4s ease-in-out 200ms infinite; */
   animation-name: note;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
