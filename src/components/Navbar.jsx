@@ -5,6 +5,7 @@ import { FaBars, FaTimes, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import { SiFiverr } from 'react-icons/si';
 
 const Navbar = () => {
   const [nav, setNav] = React.useState(false);
@@ -87,6 +88,15 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
+          <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#119e30] duration-300'>
+            <a
+              href='https://www.fiverr.com/pankajgaikwa403?up_rollout=true'
+              target={'_blank'}
+              className='flex justify-between items-center w-full'
+            >
+              Fiver <SiFiverr size={30} />
+            </a>
+          </li>
           <li className='flex justify-between items-center w-[160px] h-[60px] border-none ml-[-100px] hover:ml-[-10px] bg-[#6fc2b0] duration-300'>
             {/* <a href='/' className='flex justify-between items-center w-full'>
               Email <HiOutlineMail size={30} />
@@ -107,7 +117,7 @@ const Navbar = () => {
           </li> */}
         </ul>
       </div>
-      <div className='fixed bg-gray-100/80 rounded-md bottom-[5%] h-10 max-w-[700px] left-[5%] right-[5%] md:left-[25%] md:right-[25%] flex items-center text-black px-4 whitespace-nowrap overflow-hidden'>
+      <div className='w-[80%] fixed left-[50%] bottom-[5%] translate-x-[-50%] h-8 bg-gray-100/80 max-w-[500px] rounded-md flex items-center text-black px-4 whitespace-nowrap overflow-hidden'>
         <p className='ml-4 font-bold note text-[#0a192f]'>
           I'll keep adding more skills and works as i progress
         </p>
