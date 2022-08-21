@@ -2,6 +2,7 @@ import React from 'react';
 import WorkImg from './WorkImg';
 import workImg from '../assets/workImg.jpeg';
 import travelWebsite from '../assets/travelWebsite.png';
+import diceSite from '../assets/DICEsite.png';
 import realEstate from '../assets/realestate.jpg';
 
 const Work = () => {
@@ -18,12 +19,36 @@ const Work = () => {
           <p className='py-4'>// Please take a look at my recent work</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <WorkImg image={travelWebsite} />
-          <WorkImg image={travelWebsite} />
-          <WorkImg image={travelWebsite} />
-          <WorkImg image={travelWebsite} />
-          <WorkImg image={travelWebsite} />
-          <WorkImg image={travelWebsite} />
+          <WorkImg
+            image={travelWebsite}
+            text='Travel website made with Reactjs and tailwindcss'
+            url={'https://dynamic-kheer-3b036f.netlify.app/'}
+          />
+          <WorkImg
+            image={diceSite}
+            text='A site made with html and tailwndcss'
+            url={'https://hilarious-granita-0afa29.netlify.app/'}
+          />
+          <WorkImg
+            image={travelWebsite}
+            text='Travel website made with Reactjs'
+            url={'https://dynamic-kheer-3b036f.netlify.app/'}
+          />
+          <WorkImg
+            image={diceSite}
+            text='A site made with html and tailwndcss'
+            url={'https://hilarious-granita-0afa29.netlify.app/'}
+          />
+          <WorkImg
+            image={travelWebsite}
+            text='Travel website made with Reactjs'
+            url={'https://dynamic-kheer-3b036f.netlify.app/'}
+          />
+          <WorkImg
+            image={diceSite}
+            text='A site made with html and tailwndcss'
+            url={'https://hilarious-granita-0afa29.netlify.app/'}
+          />
         </div>
       </div>
     </div>
