@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WorkImg = ({ image, url }) => {
+const WorkImg = ({ image, url, text }) => {
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}
@@ -8,7 +8,7 @@ const WorkImg = ({ image, url }) => {
     >
       <div className='opacity-0 group-hover:opacity-100'>
         <span className='text-2xl font-bold text-white tracking-wider'>
-          React Js Application
+          {text}
         </span>
         <div className='pt-8 text-center'>
           <a href={url} target={'_blank'}>
