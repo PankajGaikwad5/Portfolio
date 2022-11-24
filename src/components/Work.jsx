@@ -40,40 +40,6 @@ const Work = () => {
             const { id, img, url } = item;
             return <WorkImg key={id} image={img} url={url} />;
           })}
-          {/* <WorkImg
-            image={travelWebsite}
-            text='Travel website made with Reactjs and tailwindcss'
-            url={'https://dynamic-kheer-3b036f.netlify.app/'}
-          />
-          <WorkImg
-            image={diceSite}
-            text='A site made with html and tailwndcss'
-            url={'https://hilarious-granita-0afa29.netlify.app/'}
-          />
-          <WorkImg
-            image={travelWebsite}
-            text='Travel website made with Reactjs'
-            url={'https://dynamic-kheer-3b036f.netlify.app/'}
-          />
-          <WorkImg
-            image={diceSite}
-            text='A site made with html and bootstrap'
-            url={'https://hilarious-granita-0afa29.netlify.app/'}
-<<<<<<< HEAD
-          /> */}
-=======
-          />
->>>>>>> 5cabfc90ea593e468c2f6d46af78124843215838
-          {/* <WorkImg
-            image={travelWebsite}
-            text='Travel website made with Reactjs'
-            url={'https://dynamic-kheer-3b036f.netlify.app/'}
-          />
-          <WorkImg
-            image={diceSite}
-            text='A site made with html and tailwndcss'
-            url={'https://hilarious-granita-0afa29.netlify.app/'}
-          /> */}
         </div>
       </div>
     </div>
