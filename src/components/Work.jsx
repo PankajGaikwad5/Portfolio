@@ -3,9 +3,26 @@ import WorkImg from './WorkImg';
 import workImg from '../assets/workImg.jpeg';
 import travelWebsite from '../assets/travelWebsite.png';
 import diceSite from '../assets/DICEsite.png';
-import realEstate from '../assets/realestate.jpg';
+import bootstrap from '../assets/bootstrap.png';
 
 const Work = () => {
+  const works = [
+    {
+      id: 1,
+      img: travelWebsite,
+      url: 'https://dynamic-kheer-3b036f.netlify.app/',
+    },
+    {
+      id: 2,
+      img: diceSite,
+      url: 'https://hilarious-granita-0afa29.netlify.app/',
+    },
+    {
+      id: 3,
+      img: bootstrap,
+      url: 'https://thunderous-khapse-cb1f37.netlify.app/',
+    },
+  ];
   return (
     <div
       name='Work'
@@ -19,7 +36,11 @@ const Work = () => {
           <p className='py-4'>// Please take a look at my recent work</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <WorkImg
+          {works.map((item) => {
+            const { id, img, url } = item;
+            return <WorkImg key={id} image={img} url={url} />;
+          })}
+          {/* <WorkImg
             image={travelWebsite}
             text='Travel website made with Reactjs and tailwindcss'
             url={'https://dynamic-kheer-3b036f.netlify.app/'}
@@ -38,8 +59,8 @@ const Work = () => {
             image={diceSite}
             text='A site made with html and tailwndcss'
             url={'https://hilarious-granita-0afa29.netlify.app/'}
-          />
-          <WorkImg
+          /> */}
+          {/* <WorkImg
             image={travelWebsite}
             text='Travel website made with Reactjs'
             url={'https://dynamic-kheer-3b036f.netlify.app/'}
@@ -48,7 +69,7 @@ const Work = () => {
             image={diceSite}
             text='A site made with html and tailwndcss'
             url={'https://hilarious-granita-0afa29.netlify.app/'}
-          />
+          /> */}
         </div>
       </div>
     </div>
