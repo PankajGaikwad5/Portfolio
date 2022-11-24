@@ -57,9 +57,13 @@ const Work = () => {
           />
           <WorkImg
             image={diceSite}
-            text='A site made with html and tailwndcss'
+            text='A site made with html and bootstrap'
             url={'https://hilarious-granita-0afa29.netlify.app/'}
+<<<<<<< HEAD
           /> */}
+=======
+          />
+>>>>>>> 5cabfc90ea593e468c2f6d46af78124843215838
           {/* <WorkImg
             image={travelWebsite}
             text='Travel website made with Reactjs'
