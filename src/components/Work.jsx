@@ -36,10 +36,10 @@ const Work = () => {
           />
           <WorkImg
             image={diceSite}
-            text='A site made with html and tailwndcss'
+            text='A site made with html and bootstrap'
             url={'https://hilarious-granita-0afa29.netlify.app/'}
           />
-          <WorkImg
+          {/* <WorkImg
             image={travelWebsite}
             text='Travel website made with Reactjs'
             url={'https://dynamic-kheer-3b036f.netlify.app/'}
@@ -48,7 +48,7 @@ const Work = () => {
             image={diceSite}
             text='A site made with html and tailwndcss'
             url={'https://hilarious-granita-0afa29.netlify.app/'}
-          />
+          /> */}
         </div>
       </div>
     </div>
