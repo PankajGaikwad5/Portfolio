@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live site
+
+[https://melodious-kulfi-f48117.netlify.app/](https://melodious-kulfi-f48117.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
