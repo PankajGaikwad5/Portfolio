@@ -4,6 +4,8 @@ import workImg from '../assets/workImg.jpeg';
 import travelWebsite from '../assets/travelWebsite.png';
 import diceSite from '../assets/DICEsite.png';
 import bootstrap from '../assets/bootstrap.png';
+import bootstrap2 from '../assets/bootstrap2.png';
+import unstarted from '../assets/unstarted.png';
 
 const Work = () => {
   const works = [
@@ -21,6 +23,16 @@ const Work = () => {
       id: 3,
       img: bootstrap,
       url: 'https://thunderous-khapse-cb1f37.netlify.app/',
+    },
+    {
+      id: 4,
+      img: bootstrap2,
+      url: 'https://deluxe-sprinkles-629beb.netlify.app/',
+    },
+    {
+      id: 5,
+      img: unstarted,
+      url: 'https://glittery-platypus-943140.netlify.app/',
     },
   ];
   return (
