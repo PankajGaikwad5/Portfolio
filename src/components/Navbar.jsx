@@ -121,11 +121,11 @@ const Navbar = () => {
           </li> */}
         </ul>
       </div>
-      <div className='w-[80%] fixed left-[50%] bottom-[5%] translate-x-[-50%] h-8 bg-gray-100/80 max-w-[500px] rounded-md flex items-center text-black px-4 whitespace-nowrap overflow-hidden'>
+      {/* <div className='w-[80%] fixed left-[50%] bottom-[5%] translate-x-[-50%] h-8 bg-gray-100/80 max-w-[500px] rounded-md flex items-center text-black px-4 whitespace-nowrap overflow-hidden'>
         <p className='ml-4 font-bold note text-[#0a192f]'>
           I'll keep adding more skills and works as i progress
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

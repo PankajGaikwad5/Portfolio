@@ -13,26 +13,31 @@ const Work = () => {
       id: 1,
       img: travelWebsite,
       url: 'https://dynamic-kheer-3b036f.netlify.app/',
+      code: 'https://github.com/PankajGaikwad5/Travel',
     },
     {
       id: 2,
       img: diceSite,
       url: 'https://hilarious-granita-0afa29.netlify.app/',
+      code: 'https://github.com/PankajGaikwad5/DICE-website',
     },
     {
       id: 3,
       img: bootstrap,
       url: 'https://thunderous-khapse-cb1f37.netlify.app/',
+      code: 'https://github.com/PankajGaikwad5/Bootstrap-site',
     },
     {
       id: 4,
       img: bootstrap2,
       url: 'https://deluxe-sprinkles-629beb.netlify.app/',
+      code: 'https://github.com/PankajGaikwad5/New-work/tree/main/project1',
     },
     {
       id: 5,
       img: unstarted,
       url: 'https://glittery-platypus-943140.netlify.app/',
+      code: 'https://github.com/PankajGaikwad5/Unstartedv1-main',
     },
   ];
   return (
@@ -49,8 +54,8 @@ const Work = () => {
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {works.map((item) => {
-            const { id, img, url } = item;
-            return <WorkImg key={id} image={img} url={url} />;
+            const { id, img, url, code } = item;
+            return <WorkImg key={id} image={img} url={url} code={code} />;
           })}
         </div>
       </div>

@@ -11,16 +11,16 @@ const Home = () => {
           Pankaj Gaikwad
         </h1>
         <h2 className='text-4xl sm:text-7xl text-[#8892b0] font-bold'>
-          I'm a Front End Developer
+          I'm a Full Stack Developer
         </h2>
         <p className='text-[#8892b0] max-w-[700px] py-4'>
-          I'm a front-end developer specializing in building (and occationally
+          I'm a Full Stack developer specializing in building (and occationally
           designing) digital experiences. Currently I'm focussed on building
           responsive front-end web applications.
         </p>
         <div>
           <Link to={'Work'} smooth={true} duration={500}>
-            <button className='flex items-center group border-2 my-2 px-6 py-3 hover:bg-pink-600 hover:border-pink-600 text-white'>
+            <button className='flex items-center group border-2 my-2 px-6 py-3 hover:bg-pink-600 hover:border-pink-600 text-white hover:text-sm transition-all duration-300'>
               View Work
               <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
