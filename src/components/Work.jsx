@@ -45,7 +45,7 @@ const Work = () => {
           <p className='inline font-bold text-4xl border-b-4 border-pink-600'>
             Work
           </p>
-          <p className='py-4'>// Please take a look at my recent work</p>
+          <p className='py-4'>// Please take a look at some of my work</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {works.map((item) => {

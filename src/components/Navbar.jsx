@@ -24,7 +24,7 @@ const Navbar = () => {
           return (
             <li
               key={index}
-              className='hover:border-b-2 border-white border-b-0'
+              className='border-b-2 border-white border-opacity-0 hover:border-opacity-100 hover:text-2xl transition-all duration-300 '
             >
               <Link to={list} smooth={true} duration={500}>
                 {list}
