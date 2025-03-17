@@ -6,9 +6,23 @@ import diceSite from '../assets/DICEsite.png';
 import bootstrap from '../assets/bootstrap.png';
 import bootstrap2 from '../assets/bootstrap2.png';
 import unstarted from '../assets/unstarted.png';
+import kdad from '../assets/kdad.png';
+import kdh from '../assets/kdh.png';
 
 const Work = () => {
   const works = [
+    {
+      id: 6,
+      img: kdad,
+      url: 'https://www.karandesai.in/',
+      code: '',
+    },
+    {
+      id: 7,
+      img: kdh,
+      url: 'https://www.karandesaihome.com/',
+      code: '',
+    },
     {
       id: 1,
       img: travelWebsite,
