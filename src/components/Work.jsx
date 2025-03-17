@@ -15,13 +15,11 @@ const Work = () => {
       id: 6,
       img: kdad,
       url: 'https://www.karandesai.in/',
-      code: '',
     },
     {
       id: 7,
       img: kdh,
       url: 'https://www.karandesaihome.com/',
-      code: '',
     },
     {
       id: 1,

@@ -16,11 +16,13 @@ const WorkImg = ({ image, url, text, code }) => {
               Demo
             </button>
           </a>
-          <a href={code} target={'_blank'}>
-            <button className='text-center text-lg px-4 py-3 m-2 font-bold text-gray-700 rounded-lg bg-white'>
-              Code
-            </button>
-          </a>
+          {code && (
+            <a href={code} target={'_blank'}>
+              <button className='text-center text-lg px-4 py-3 m-2 font-bold text-gray-700 rounded-lg bg-white'>
+                Code
+              </button>
+            </a>
+          )}
         </div>
       </div>
     </div>
