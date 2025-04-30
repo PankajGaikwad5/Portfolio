@@ -9,9 +9,15 @@ import unstarted from '../assets/unstarted.png';
 import kdad from '../assets/kdad.png';
 import kdh from '../assets/kdh.png';
 import skb from '../assets/skb.png';
+import ecom from '../assets/ecom.png';
 
 const Work = () => {
   const works = [
+    {
+      id: 9,
+      img: ecom,
+      url: 'https://ecommerce-seven-rho-32.vercel.app/',
+    },
     {
       id: 6,
       img: skb,
