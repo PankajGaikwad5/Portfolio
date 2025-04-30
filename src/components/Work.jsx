@@ -8,11 +8,17 @@ import bootstrap2 from '../assets/bootstrap2.png';
 import unstarted from '../assets/unstarted.png';
 import kdad from '../assets/kdad.png';
 import kdh from '../assets/kdh.png';
+import skb from '../assets/skb.png';
 
 const Work = () => {
   const works = [
     {
       id: 6,
+      img: skb,
+      url: 'https://www.shukhabarwithkd.com/',
+    },
+    {
+      id: 8,
       img: kdad,
       url: 'https://www.karandesai.in/',
     },
