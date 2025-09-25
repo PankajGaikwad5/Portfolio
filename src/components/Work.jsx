@@ -10,9 +10,15 @@ import kdad from '../assets/kdad.png';
 import kdh from '../assets/kdh.png';
 import skb from '../assets/skb.png';
 import ecom from '../assets/ecom.png';
+import jwelery from '../assets/jwelery-website.png';
 
 const Work = () => {
   const works = [
+    {
+      id: 10,
+      img: jwelery,
+      url: 'https://temp-teal-delta.vercel.app/productdetail/1',
+    },
     {
       id: 9,
       img: ecom,
