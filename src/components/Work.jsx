@@ -73,7 +73,7 @@ const Work = () => {
   return (
     <div
       name='Work'
-      className='w-full md:h-screen bg-[#0a192f] text-gray-300 font-[Raleway]'
+      className='w-full md:min-h-screen bg-[#0a192f] text-gray-300 font-[Raleway]'
     >
       <div className='max-w-[1000px] w-full h-full p-4 mx-auto flex flex-col justify-center'>
         <div className='pb-8'>
